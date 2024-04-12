@@ -11,7 +11,7 @@
 
 #### Часть 1
 
-Ноутбук с анализом: https://nbviewer.org/github/eto-enot/ds-start-final/blob/v1/salary.ipynb
+Ноутбук с анализом: https://github.com/andrey-korzhun/ds_start_final/blob/main/final.ipynb
 
 В ноутбуке данные загружаются из оригинальных файлов и других источников.
 
