@@ -5,17 +5,12 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config('Проект: анализ зарплат в России', layout='wide', initial_sidebar_state='auto')
-
-
-
-# # --------------------------------------------------------------------------
-
-# default_select = ['Образование', 'Финансовая деятельность', 'Строительство', 'Средняя']
-
-# st.header('Фильтр')
+st.subheader('Данные об инфляции')
 
 url = 'https://xn----ctbjnaatncev9av3a8f8b.xn--p1ai/%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8B-%D0%B8%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D0%B8'
 df_infl = pd.read_html(url, index_col='Год', )[0]
+
+st.write(df_infl.head())
 
 
 # branches = st.multiselect('Отрасли:', default_select, default_select)
