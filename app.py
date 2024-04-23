@@ -23,4 +23,4 @@ new_data = new_data.dropna(how='any')
 old_data = old_data.dropna(how='any')
 
 st.write(new_data.head())
-st.write(new_data.head())
+st.write(old_data.head())
